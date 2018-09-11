@@ -1,0 +1,65 @@
+:root {
+  font-size: 62.5%; /* 62.5% of the typical browser default
+                       font-size of 16px, is 10px.
+                       Which makes 1rem = 10px. */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*
+----------------------------------------
+Responsive
+----------------------------------------
+*/
+
+/* CSS for all cell phones and shared cross-browser CSS */
+
+@media screen and (min-width: 481px) {
+  /* CSS for tablets and larger */
+}
+
+@media screen and (min-width: 961px) {
+  /* CSS for small desktop and laptop screens and larger */
+}
+
+@media screen and (min-width: 1501px) {
+  /* CSS for large laptop and desktop displays */
+}
+
+/*
+----------------------------------------
+// lobotomized owl
+// https://alistapart.com/article/axiomatic-css-and-lobotomized-owls
+// ------------------
+----------------------------------------
+*/
+
+/* * + * { */
+	/* margin-top: 1.5em; */
+/* } */
+
+/* BOOK-LIKE, JUSTIFIED PARAGRAPHS */
+/* p { */
+	/* text-align: justify; */
+/* } */
+
+/* p + p { */
+/* margin-top: 0; */
+/* text-indent: 2em; */
+/* } */
+
+/* COMPACT MODULES */
+/* .compact * + * { */
+	/* margin-top: 0.75em; */
+/* } */
+
+/* WIDGETS WITH POSITIONING */
+/* .margins-off > * { */
+	/* margin-top: 0; */
+/* } */

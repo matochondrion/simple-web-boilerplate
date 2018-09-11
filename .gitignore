@@ -1,0 +1,47 @@
+.DS_Store
+*.swp
+node_modules
+.tmp
+npm-debug.log
+builds/production/images/**
+**.css.map
+images-working
+builds/development/css/style.css
+notes.txt
+notes/*
+_notes/*
+delete.html
+delete.txt
+options
+tags
+
+# Video
+**/exports-high/
+**/*Previews/
+**/*Auto-Save/
+**/*AME/
+
+# Temporary files
+*.idlk #indesign
+
+# npm-build-boilerplate
+dist
+node_modules
+npm-debug.log
+.sass-cache
+
+# Vagrant
+.vagrant
+.log
+.ey_local_data
+./wordpress/
+/wordpress/
+/wp-tests/
+~           
+
+# PHPStorm
+.idea
+
+# Launch School
+docs-private
+
